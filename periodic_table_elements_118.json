@@ -45,7 +45,7 @@
     "name":"Carbon",
     "mass":12.011,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":7,
@@ -53,7 +53,7 @@
     "name":"Nitrogen",
     "mass":14.007,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":8,
@@ -61,7 +61,7 @@
     "name":"Oxygen",
     "mass":15.999,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":9,
@@ -117,7 +117,7 @@
     "name":"Element 15",
     "mass":15.0,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":16,
@@ -125,7 +125,7 @@
     "name":"Element 16",
     "mass":16.0,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":17,
@@ -269,7 +269,7 @@
     "name":"Element 34",
     "mass":34.0,
     "drive_id":"1lMY347c0o-5e1rbYkbsdjF0-HnTtKnpj",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":35,
