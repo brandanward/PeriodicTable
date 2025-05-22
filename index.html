@@ -75,7 +75,7 @@
   <div class="table" id="table"></div>
 
   <div id="modal" onclick="hideOverlay()">
-    <img id="overlay-image" src="" alt="Element Info">
+    <iframe id="overlay-frame" src="" width="80%" height="80%" allowfullscreen></iframe>
   </div>
 
   <script>
@@ -110,20 +110,20 @@
             <span>${el.symbol}</span>
             <span class='label'>${el.name}</span>
             <span class='mass'>${el.mass}</span>`;
-          const imageUrl = `https://drive.google.com/thumbnail?id=${el.drive_id}`;
+         const imageUrl = `https://drive.google.com/file/d/${el.drive_id}/preview`;
           elDiv.onclick = () => showOverlay(imageUrl);
           table.appendChild(elDiv);
         });
       });
 
     function showOverlay(url) {
-      document.getElementById('overlay-image').src = url;
+      document.getElementById('overlay-frame').src = url;
       document.getElementById('modal').style.display = 'flex';
     }
 
     function hideOverlay() {
       document.getElementById('modal').style.display = 'none';
-      document.getElementById('overlay-image').src = '';
+      document.getElementById('overlay-frame').src = '';
     }
   </script>
 </body>
