@@ -37,7 +37,7 @@
     "name":"Boron",
     "mass":10.81,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":6,
@@ -109,7 +109,7 @@
     "name":"Element 14",
     "mass":14.0,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":15,
@@ -253,7 +253,7 @@
     "name":"Element 32",
     "mass":32.0,
     "drive_id":"1lMY347c0o-5e1rbYkbsdjF0-HnTtKnpj",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":33,
@@ -261,7 +261,7 @@
     "name":"Element 33",
     "mass":33.0,
     "drive_id":"1lMY347c0o-5e1rbYkbsdjF0-HnTtKnpj",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":34,
@@ -405,7 +405,7 @@
     "name":"Element 51",
     "mass":51.0,
     "drive_id":"1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":52,
@@ -413,7 +413,7 @@
     "name":"Element 52",
     "mass":52.0,
     "drive_id":"1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":53,
