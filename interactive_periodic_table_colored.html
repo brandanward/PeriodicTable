@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Periodic Table</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .table {
+      display: grid;
+      grid-template-columns: repeat(18, 60px);
+      grid-auto-rows: 80px;
+      gap: 3px;
+      justify-content: center;
+    }
+    .element {
+      border: 1px solid #ccc;
+      font-size: 10px;
+      padding: 4px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .element span.label {
+      font-size: 8px;
+    }
+    .element span.mass {
+      font-size: 8px;
+      color: #555;
+    }
+    .element:hover {
+      outline: 2px solid #444;
+    }
+    #modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    #modal img {
+      max-width: 90vw;
+      max-height: 90vh;
+      border: 5px solid white;
+    }
+    #modal::after {
+      content: '✖';
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Interactive Periodic Table</h1>
+  <div class="table">
+    
+    <div class="element" style="background:#E6E6FA; grid-column: 1; grid-row: 1;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>1</strong>
+        <span>H</span>
+        <span class='label'>Hydrogen</span>
+        <span class='mass'>1.008</span>
+    </div>
+    
+    <div class="element" style="background:#B0E0E6; grid-column: 18; grid-row: 1;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>2</strong>
+        <span>He</span>
+        <span class='label'>Helium</span>
+        <span class='mass'>4.0026</span>
+    </div>
+    
+    <div class="element" style="background:#FF9999; grid-column: 3; grid-row: 2;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>3</strong>
+        <span>Li</span>
+        <span class='label'>Lithium</span>
+        <span class='mass'>6.94</span>
+    </div>
+    
+    <div class="element" style="background:#FFD580; grid-column: 4; grid-row: 2;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>4</strong>
+        <span>Be</span>
+        <span class='label'>Beryllium</span>
+        <span class='mass'>9.0122</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 5; grid-row: 2;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>5</strong>
+        <span>B</span>
+        <span class='label'>Boron</span>
+        <span class='mass'>10.81</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 6; grid-row: 2;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>6</strong>
+        <span>C</span>
+        <span class='label'>Carbon</span>
+        <span class='mass'>12.011</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 7; grid-row: 2;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>7</strong>
+        <span>N</span>
+        <span class='label'>Nitrogen</span>
+        <span class='mass'>14.007</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 8; grid-row: 2;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>8</strong>
+        <span>O</span>
+        <span class='label'>Oxygen</span>
+        <span class='mass'>15.999</span>
+    </div>
+    
+    <div class="element" style="background:#98FB98; grid-column: 9; grid-row: 2;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>9</strong>
+        <span>F</span>
+        <span class='label'>Fluorine</span>
+        <span class='mass'>18.998</span>
+    </div>
+    
+    <div class="element" style="background:#B0E0E6; grid-column: 10; grid-row: 2;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>10</strong>
+        <span>Ne</span>
+        <span class='label'>Neon</span>
+        <span class='mass'>20.18</span>
+    </div>
+    
+    <div class="element" style="background:#FF9999; grid-column: 1; grid-row: 3;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>11</strong>
+        <span>Na</span>
+        <span class='label'>Sodium</span>
+        <span class='mass'>22.99</span>
+    </div>
+    
+    <div class="element" style="background:#FFD580; grid-column: 2; grid-row: 3;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>12</strong>
+        <span>Mg</span>
+        <span class='label'>Magnesium</span>
+        <span class='mass'>24.305</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 3; grid-row: 3;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>13</strong>
+        <span>Al</span>
+        <span class='label'>Aluminum</span>
+        <span class='mass'>26.982</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 4; grid-row: 3;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>14</strong>
+        <span>Si</span>
+        <span class='label'>Silicon</span>
+        <span class='mass'>28.085</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 5; grid-row: 3;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>15</strong>
+        <span>P</span>
+        <span class='label'>Phosphorus</span>
+        <span class='mass'>30.974</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 6; grid-row: 3;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>16</strong>
+        <span>S</span>
+        <span class='label'>Sulfur</span>
+        <span class='mass'>32.06</span>
+    </div>
+    
+    <div class="element" style="background:#98FB98; grid-column: 7; grid-row: 3;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>17</strong>
+        <span>Cl</span>
+        <span class='label'>Chlorine</span>
+        <span class='mass'>35.45</span>
+    </div>
+    
+    <div class="element" style="background:#B0E0E6; grid-column: 8; grid-row: 3;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>18</strong>
+        <span>Ar</span>
+        <span class='label'>Argon</span>
+        <span class='mass'>39.948</span>
+    </div>
+    
+    <div class="element" style="background:#FF9999; grid-column: 1; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>19</strong>
+        <span>K</span>
+        <span class='label'>Potassium</span>
+        <span class='mass'>39.098</span>
+    </div>
+    
+    <div class="element" style="background:#FFD580; grid-column: 2; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>20</strong>
+        <span>Ca</span>
+        <span class='label'>Calcium</span>
+        <span class='mass'>40.078</span>
+    </div>
+    
+    <div class="element" style="background:#FFB347; grid-column: 3; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>21</strong>
+        <span>Sc</span>
+        <span class='label'>Scandium</span>
+        <span class='mass'>44.956</span>
+    </div>
+    
+    <div class="element" style="background:#FFB347; grid-column: 4; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>22</strong>
+        <span>Ti</span>
+        <span class='label'>Titanium</span>
+        <span class='mass'>47.867</span>
+    </div>
+    
+    <div class="element" style="background:#FFB347; grid-column: 5; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>23</strong>
+        <span>V</span>
+        <span class='label'>Vanadium</span>
+        <span class='mass'>50.942</span>
+    </div>
+    
+    <div class="element" style="background:#FFB347; grid-column: 6; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>24</strong>
+        <span>Cr</span>
+        <span class='label'>Chromium</span>
+        <span class='mass'>51.996</span>
+    </div>
+    
+    <div class="element" style="background:#FFB347; grid-column: 7; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>25</strong>
+        <span>Mn</span>
+        <span class='label'>Manganese</span>
+        <span class='mass'>54.938</span>
+    </div>
+    
+    <div class="element" style="background:#FFB347; grid-column: 8; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>26</strong>
+        <span>Fe</span>
+        <span class='label'>Iron</span>
+        <span class='mass'>55.845</span>
+    </div>
+    
+    <div class="element" style="background:#FFB347; grid-column: 9; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>27</strong>
+        <span>Co</span>
+        <span class='label'>Cobalt</span>
+        <span class='mass'>58.933</span>
+    </div>
+    
+    <div class="element" style="background:#FFB347; grid-column: 10; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>28</strong>
+        <span>Ni</span>
+        <span class='label'>Nickel</span>
+        <span class='mass'>58.693</span>
+    </div>
+    
+    <div class="element" style="background:#FFB347; grid-column: 11; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>29</strong>
+        <span>Cu</span>
+        <span class='label'>Copper</span>
+        <span class='mass'>63.546</span>
+    </div>
+    
+    <div class="element" style="background:#FFB347; grid-column: 12; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>30</strong>
+        <span>Zn</span>
+        <span class='label'>Zinc</span>
+        <span class='mass'>65.38</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 13; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>31</strong>
+        <span>Ga</span>
+        <span class='label'>Gallium</span>
+        <span class='mass'>69.723</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 14; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>32</strong>
+        <span>Ge</span>
+        <span class='label'>Germanium</span>
+        <span class='mass'>72.63</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 15; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>33</strong>
+        <span>As</span>
+        <span class='label'>Arsenic</span>
+        <span class='mass'>74.922</span>
+    </div>
+    
+    <div class="element" style="background:#F0F0F0; grid-column: 16; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>34</strong>
+        <span>Se</span>
+        <span class='label'>Selenium</span>
+        <span class='mass'>78.971</span>
+    </div>
+    
+    <div class="element" style="background:#98FB98; grid-column: 17; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>35</strong>
+        <span>Br</span>
+        <span class='label'>Bromine</span>
+        <span class='mass'>79.904</span>
+    </div>
+    
+    <div class="element" style="background:#B0E0E6; grid-column: 18; grid-row: 4;" onclick="showOverlay('https://drive.google.com/uc?export=view&id=SAMPLE_ID')">
+        <strong>36</strong>
+        <span>Kr</span>
+        <span class='label'>Krypton</span>
+        <span class='mass'>83.798</span>
+    </div>
+    
+  </div>
+
+  <div id="modal" onclick="hideOverlay()">
+    <img id="overlay-image" src="" alt="Element Info">
+  </div>
+
+  <script>
+    function showOverlay(url) {
+      document.getElementById('overlay-image').src = url;
+      document.getElementById('modal').style.display = 'flex';
+    }
+    function hideOverlay() {
+      document.getElementById('modal').style.display = 'none';
+      document.getElementById('overlay-image').src = '';
+    }
+  </script>
+</body>
+</html>
