@@ -130,7 +130,7 @@
             <span class='label'>${el.name}</span>
             <span class='mass'>${el.mass}</span>`;
           const imgUrl = `https://drive.google.com/uc?export=view&id=${el.drive_id}`;
-          elDiv.onclick = () => showOverlay(imgUrl);
+          elDiv.onclick = () => showOverlay(`https://drive.google.com/uc?export=view&id=${el.drive_id}`);
           table.appendChild(elDiv);
         });
       });
