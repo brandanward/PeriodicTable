@@ -131,7 +131,11 @@
             <span class='label'>${el.name}</span>
             <span class='mass'>${el.mass}</span>`;
           const imgUrl = `https://drive.google.com/uc?export=view&id=${el.drive_id}`;
-          elDiv.onclick = () => showOverlay(`https://drive.google.com/uc?export=view&id=${el.drive_id}`);
+          elDiv.onclick = () => {
+  const imageUrl = `https://drive.google.com/uc?export=view&id=${el.drive_id}`;
+  console.log(imageUrl); // Debug line
+  showOverlay(imageUrl);
+};
           table.appendChild(elDiv);
         });
       });
