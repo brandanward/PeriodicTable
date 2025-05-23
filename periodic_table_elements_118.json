@@ -37,7 +37,7 @@
     "name":"Boron",
     "mass":10.81,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":6,
@@ -45,7 +45,7 @@
     "name":"Carbon",
     "mass":12.011,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":7,
@@ -53,7 +53,7 @@
     "name":"Nitrogen",
     "mass":14.007,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":8,
@@ -61,7 +61,7 @@
     "name":"Oxygen",
     "mass":15.999,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":9,
@@ -109,7 +109,7 @@
     "name":"Silicon",
     "mass":28.085,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":15,
@@ -117,7 +117,7 @@
     "name":"Phosphorus",
     "mass":30.974,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":16,
@@ -125,7 +125,7 @@
     "name":"Sulfur",
     "mass":32.06,
     "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":17,
@@ -253,7 +253,7 @@
     "name":"Germanium",
     "mass":72.63,
     "drive_id":"1lMY347c0o-5e1rbYkbsdjF0-HnTtKnpj",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":33,
@@ -261,7 +261,7 @@
     "name":"Arsenic",
     "mass":74.922,
     "drive_id":"1lMY347c0o-5e1rbYkbsdjF0-HnTtKnpj",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":34,
@@ -269,7 +269,7 @@
     "name":"Selenium",
     "mass":78.971,
     "drive_id":"1lMY347c0o-5e1rbYkbsdjF0-HnTtKnpj",
-    "category":"other"
+    "category":"nonmetal"
   },
   {
     "number":35,
@@ -405,7 +405,7 @@
     "name":"Antimony",
     "mass":121.76,
     "drive_id":"1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":52,
@@ -413,7 +413,7 @@
     "name":"Tellurium",
     "mass":127.6,
     "drive_id":"1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
-    "category":"other"
+    "category":"metalloid"
   },
   {
     "number":53,
