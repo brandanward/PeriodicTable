@@ -36,7 +36,7 @@
     "symbol":"B",
     "name":"Boron",
     "mass":10.81,
-    "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
+    "drive_id":"1TOc33rh75ZvXOctPTX-oEbAlFb_MAqmenfE0u0Cv4_E",
     "category":"metalloid"
   },
   {
@@ -140,7 +140,7 @@
     "symbol":"Ar",
     "name":"Argon",
     "mass":39.948,
-    "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
+    "drive_id":"1VoKUho5GrGnGNRLQWr86T35oP5ipFe6n-519cJZnU4c",
     "category":"noble-gas"
   },
   {
@@ -156,7 +156,7 @@
     "symbol":"Ca",
     "name":"Calcium",
     "mass":40.078,
-    "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
+    "drive_id":"18od1Vy_y0-J91xdeKVj3-vh3FVeZ6Mj0",
     "category":"alkaline-earth-metal"
   },
   {
@@ -604,7 +604,7 @@
     "symbol":"Os",
     "name":"Osmium",
     "mass":190.23,
-    "drive_id":"1WIRkTqCQgargRVClbmhCBPxLJ9eRmnij",
+    "drive_id":"1WBJelxd4ScMy1K93WE0kDuX7ij_BEIVm",
     "category":"transition-metal"
   },
   {
@@ -660,7 +660,7 @@
     "symbol":"Bi",
     "name":"Bismuth",
     "mass":208.98,
-    "drive_id":"1WIRkTqCQgargRVClbmhCBPxLJ9eRmnij",
+    "drive_id":"1VfRRbT-vIR8x1Eds5Jel547Xdtyl7KIiq2eM7Te3mFo",
     "category":"other"
   },
   {
