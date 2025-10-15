@@ -52,7 +52,7 @@
     "symbol":"N",
     "name":"Nitrogen",
     "mass":14.007,
-    "drive_id":"1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
+    "drive_id":"1QIO4nAWJurusxBOx9h9BR6rL-siKuP5sDUezVfXjnp8",
     "category":"nonmetal"
   },
   {
@@ -620,7 +620,7 @@
     "symbol":"Pt",
     "name":"Platinum",
     "mass":195.084,
-    "drive_id":"1WIRkTqCQgargRVClbmhCBPxLJ9eRmnij",
+    "drive_id":"1qbZMSuOWVbAfzYFwo6XGH3uKbnxBMO6n",
     "category":"transition-metal"
   },
   {
@@ -684,7 +684,7 @@
     "symbol":"Rn",
     "name":"Radon",
     "mass":222.0,
-    "drive_id":"1WIRkTqCQgargRVClbmhCBPxLJ9eRmnij",
+    "drive_id":"1wIuUzdTAsthVXosNxcVqdwaF3tGna-z7",
     "category":"noble-gas"
   },
   {
