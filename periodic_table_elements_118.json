@@ -76,7 +76,7 @@
     "symbol": "Ne",
     "name": "Neon",
     "mass": 20.18,
-    "drive_id": "1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
+    "drive_id": "1G7iFM6DgbMZVqa_L9ZlLu1hPf92x-_fw",
     "category": "noble-gas"
   },
   {
@@ -84,7 +84,7 @@
     "symbol": "Na",
     "name": "Sodium",
     "mass": 22.99,
-    "drive_id": "1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
+    "drive_id": "1oKSYMsiLuIsOTj9R3v6xdgpgLl6UolKV",
     "category": "alkali-metal"
   },
   {
@@ -92,7 +92,7 @@
     "symbol": "Mg",
     "name": "Magnesium",
     "mass": 24.305,
-    "drive_id": "1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
+    "drive_id": "11jf4WO2QFOpAXHsCVO3rMw7pAqE5c0w-hFIWMDWaOnU",
     "category": "alkaline-earth-metal"
   },
   {
@@ -180,7 +180,7 @@
     "symbol": "V",
     "name": "Vanadium",
     "mass": 50.942,
-    "drive_id": "1FOWQUaN7R-OLXfcuF7TcsIAYzdcB76X5",
+    "drive_id": "1ShwomLZcdInrGqlP9KQCn33ik4yDUa50",
     "category": "transition-metal"
   },
   {
@@ -244,7 +244,7 @@
     "symbol": "Ga",
     "name": "Gallium",
     "mass": 69.723,
-    "drive_id": "1lMY347c0o-5e1rbYkbsdjF0-HnTtKnpj",
+    "drive_id": "1NOYrgCJxtyem-3EX8lDKC1VyoQA-HFJB3wpVp5Q8W9s",
     "category": "other"
   },
   {
@@ -260,7 +260,7 @@
     "symbol": "As",
     "name": "Arsenic",
     "mass": 74.922,
-    "drive_id": "1lMY347c0o-5e1rbYkbsdjF0-HnTtKnpj",
+    "drive_id": "1syWxeDUtqxplKlavhKUP4C07d_5RYb5L",
     "category": "metalloid"
   },
   {
@@ -324,7 +324,7 @@
     "symbol": "Nb",
     "name": "Niobium",
     "mass": 92.906,
-    "drive_id": "1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
+    "drive_id": "1UUpguSQogpafEZ0GZw3vybsAJBeYgu-EKB0PwPZhg2k",
     "category": "transition-metal"
   },
   {
@@ -332,7 +332,7 @@
     "symbol": "Mo",
     "name": "Molybdenum",
     "mass": 95.95,
-    "drive_id": "1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
+    "drive_id": "1-bWv1Y_Fp2p_D19ULoX-blpm4f2i0vIW",
     "category": "transition-metal"
   },
   {
@@ -380,7 +380,7 @@
     "symbol": "Cd",
     "name": "Cadmium",
     "mass": 112.414,
-    "drive_id": "1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
+    "drive_id": "1DjWNeQshi4S9A--MTJcCsW0EpaFd8JGk",
     "category": "transition-metal"
   },
   {
@@ -388,7 +388,7 @@
     "symbol": "In",
     "name": "Indium",
     "mass": 114.818,
-    "drive_id": "1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
+    "drive_id": "1gaGYt_iEER9FODASVfcgnrBUEJ6vVOKM",
     "category": "other"
   },
   {
@@ -396,7 +396,7 @@
     "symbol": "Sn",
     "name": "Tin",
     "mass": 118.71,
-    "drive_id": "1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
+    "drive_id": "1NAc1t0Geh2vY7pSErIjVNlnINw1o2xW0",
     "category": "other"
   },
   {
@@ -428,7 +428,7 @@
     "symbol": "Xe",
     "name": "Xenon",
     "mass": 131.293,
-    "drive_id": "1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
+    "drive_id": "1Fipno6lJBJpyhwNg-HkWrD-lHHC2TL8z8As_IQxoLLA",
     "category": "noble-gas"
   },
   {
@@ -476,7 +476,7 @@
     "symbol": "Nd",
     "name": "Neodymium",
     "mass": 144.242,
-    "drive_id": "1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
+    "drive_id": "13o4v-Wv5GgiFFNhtw3_mbx2OwUeMu2cX8mKc-ViKBhg",
     "category": "inner-transition"
   },
   {
@@ -540,7 +540,7 @@
     "symbol": "Er",
     "name": "Erbium",
     "mass": 167.259,
-    "drive_id": "1mFMmDInJyllQW0hm8svZgXA4_RzLudcV",
+    "drive_id": "1Rle7UXA98HBdOvN6uLxFj_Q2HFLeq_PW",
     "category": "inner-transition"
   },
   {
@@ -628,7 +628,7 @@
     "symbol": "Au",
     "name": "Gold",
     "mass": 196.967,
-    "drive_id": "1WIRkTqCQgargRVClbmhCBPxLJ9eRmnij",
+    "drive_id": "1k18JxEeGoVWeBk-OG2fM-eio8HHQc9UU",
     "category": "transition-metal"
   },
   {
@@ -644,7 +644,7 @@
     "symbol": "Tl",
     "name": "Thallium",
     "mass": 204.38,
-    "drive_id": "1WIRkTqCQgargRVClbmhCBPxLJ9eRmnij",
+    "drive_id": "1BbYJXL252tRCCOisFhVvbJjDitS-gYtyWG9H4u1F7zU",
     "category": "other"
   },
   {
@@ -668,7 +668,7 @@
     "symbol": "Po",
     "name": "Polonium",
     "mass": 209.0,
-    "drive_id": "1WIRkTqCQgargRVClbmhCBPxLJ9eRmnij",
+    "drive_id": "1ZdlFXK7GrC10msQTGSuoAF-Z9h9fhQIR",
     "category": "other"
   },
   {
@@ -748,7 +748,7 @@
     "symbol": "Pu",
     "name": "Plutonium",
     "mass": 244.0,
-    "drive_id": "1WIRkTqCQgargRVClbmhCBPxLJ9eRmnij",
+    "drive_id": "12hGocuj0z9cu6vl_uonT8RLq9Q9T7dM6",
     "category": "inner-transition"
   },
   {
